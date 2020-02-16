@@ -11,3 +11,4 @@ blinkt = { git = "https://github.com/golemparts/blinkt", rev = "6d3dc5f754b399ea
 online = "0.2.2"
 syslog = "^4.0"
 log = "0.4.8"
+simple-signal = "1.1.1"
