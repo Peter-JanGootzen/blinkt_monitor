@@ -1,0 +1,13 @@
+[package]
+name = "blinkt_monitor"
+version = "0.1.0"
+authors = ["Peter-Jan Gootzen <peterjan@gootzen.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+blinkt = { git = "https://github.com/golemparts/blinkt", rev = "6d3dc5f754b399ea97a3574188f83d6d0c056a57" }
+online = "0.2.2"
+syslog = "^4.0"
+log = "0.4.8"
